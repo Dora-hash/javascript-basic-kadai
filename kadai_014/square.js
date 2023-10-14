@@ -1,4 +1,4 @@
 const keisan = (kazu) => {
-    console.log(kazu ** 2);
+    return kazu ** 2;
 }
-keisan(10);
+console.log(keisan(10));
